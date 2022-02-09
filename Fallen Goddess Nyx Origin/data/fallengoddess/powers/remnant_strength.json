@@ -1,0 +1,14 @@
+{
+	"name":"Remnant Strength",
+	"description":"A bit of your Godly strength still remains, but only while in your element.",
+	"type":"origins:modify_damage_dealt",
+	"modifier":{
+		"operation":"multiply_base",
+		"value":"0.4"
+	},
+	"condition": {
+		"type": "origins:brightness",
+		"comparison": ">=",
+		"compare_to": 0.6
+	}
+}

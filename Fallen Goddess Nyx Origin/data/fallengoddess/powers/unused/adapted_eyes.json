@@ -1,0 +1,26 @@
+{
+	"name": "Adaptable Eyes",
+	"description": "Your natural home is in a cave. As a result, your eyes have adapted to low light levels. Unfortunately because of this, very bright light blinds you. A pumpkin will help with this.",
+	"type": "origins:multiple",
+	"night_vision": {
+		"type": "origins:night_vision"
+	},
+	"blindness":{
+		"type": "origins:stacking_status_effect",
+		"min_stacks": -6,
+		"max_stacks": 6,
+		"duration_per_stack": 20,
+		"tick_rate": 10,
+		"effect": {
+			"effect": "minecraft:blindness",
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		},
+		"condition": {
+			"type": "origins:brightness",
+			"comparison": ">=",
+			"compare_to": 0.6
+		}
+	}
+}add pumpkin clause

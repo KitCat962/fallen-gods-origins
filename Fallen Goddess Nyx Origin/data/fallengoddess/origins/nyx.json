@@ -1,0 +1,15 @@
+{
+	"name":"Fallen Goddess Nyx",
+	"description":"Nyx used to be the Goddess of the Night. Now stripped of her powers, she wanders a mortal plane once thought to be lost.",
+	"icon":"minecraft:cobbled_deepslate",
+	"impact":2,
+	"powers":[
+		"fallengoddess:thin_presence",
+		"fallengoddess:remnant_strength",
+		"fallengoddess:adapted_eyes",
+		"fallengoddess:sensitive_skin",
+		"fallengoddess:sun_weak",
+		"fallengoddess:dark_spell",
+		"fallengoddess:cave_food"
+	]
+}

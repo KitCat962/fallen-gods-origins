@@ -1,0 +1,6 @@
+{
+	"name":"Thin Presence",
+	"description":"You had a thin presence in Godhood and an even thinner presence without it. You appear translucent to others.",
+	"type": "origins:model_color",
+    "alpha":0.3
+}

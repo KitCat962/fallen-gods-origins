@@ -1,0 +1,18 @@
+{
+	"name":"Elemental Opposite",
+	"description":"Grow weak for some time after touching direct sunlight.",
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":5,
+	"duration_per_stack":4,
+	"tick_rate":4,
+	"effect":{
+		"effect": "minecraft:weakness",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true
+	},
+	"condition":{
+		"type": "origins:exposed_to_sun"
+	}
+}

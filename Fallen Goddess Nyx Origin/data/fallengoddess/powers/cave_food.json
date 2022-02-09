@@ -1,0 +1,19 @@
+{
+	"name":"Cave Food",
+	"description":"You gain more from food found in caves than others.",
+	"type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "fallengoddess:cave_food"
+        }
+    },
+    "food_modifier": {
+        "operation": "addition",
+        "value": 5.0
+    },
+    "saturation_modifier": {
+        "operation": "addition",
+        "value": 5
+    }
+}
